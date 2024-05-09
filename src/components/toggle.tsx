@@ -16,7 +16,7 @@ function Toggle() {
                 </li>
                 <li onClick={() => setRole("Teacher")} >
                     <input type="radio" id="hosting-big" name="hosting" value="hosting-big" className="hidden peer" />
-                    <label for="hosting-big" className="inline-flex items-center justify-between w-full text-blue-500 border-blue-400 border-2 rounded-lg cursor-pointer peer-checked:bg-purple-600 peer-checked:text-white peer-checked:border-purple-600 p-2">
+                    <label htmlFor="hosting-big" className="inline-flex items-center justify-between w-full text-blue-500 border-blue-400 border-2 rounded-lg cursor-pointer peer-checked:bg-purple-600 peer-checked:text-white peer-checked:border-purple-600 p-2">
                         <div className="w-full text-lg font-semibold tracking-wide">Teacher</div>
                     </label>
                 </li>
