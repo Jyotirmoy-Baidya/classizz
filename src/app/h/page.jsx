@@ -5,15 +5,15 @@ import ClassBlock from "@/components/ClassBlock"
 import NavContext from '@/context/NavContext';
 
 const own = [
-    { className: 'CSE1', classOwner: "Jyoti", color: `pink`, noOfStudents: 23 },
-    { className: 'CSE2', classOwner: "Biman", color: `teal`, noOfStudents: 32 },
-    { className: 'CSE3', classOwner: "Bhalu", color: `slate`, noOfStudents: 40 },
-    { className: 'CSE3', classOwner: "Bhalu", color: `lime`, noOfStudents: 40 },
-    { className: 'CSE2', classOwner: "Biman", color: `orange`, noOfStudents: 32 },];
+    { className: 'CSE1', classOwner: "Jyoti", color: 'pink', border: "border-pink-100", noOfStudents: 23 },
+    { className: 'CSE2', classOwner: "Biman", color: 'teal', border: "border-pink-100", noOfStudents: 32 },
+    { className: 'CSE3', classOwner: "Bhalu", color: 'bg-slate-100', border: "border-pink-100", noOfStudents: 40 },
+    { className: 'CSE3', classOwner: "Bhalu", color: 'bg-cyan-100', border: "border-pink-100", noOfStudents: 40 },
+    { className: 'CSE2', classOwner: "Biman", color: 'bg-gray-100', border: "border-pink-100", noOfStudents: 32 },];
 
 const inst = [
-    { className: 'ECE1', color: "orange", classOwner: "SPD", noOfStudents: 67 },
-    { className: 'ECE2', color: "lime", classOwner: "Prasenjit Das", noOfStudents: 90 }];
+    { className: 'ECE1', color: "bg-orange-100", classOwner: "SPD", noOfStudents: 67 },
+    { className: 'ECE2', color: "bg-green-100", classOwner: "Prasenjit Das", noOfStudents: 90 }];
 const userName = "Jyotirmoy";
 
 const HomePage = () => {
